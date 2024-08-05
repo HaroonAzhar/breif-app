@@ -1,0 +1,49 @@
+.wrapper {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+    background-color: white;
+
+    min-height: 70vh;
+
+    margin: 0 0 100px;
+
+}
+
+.header {
+    color: #e63946;
+    font-size: 4em;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    line-height: normal;
+    text-align: center;
+}
+
+.subHeader {
+    color: black;
+    font-size: 2em;
+    line-height: normal;
+    text-align: center;
+    max-width: 90%;
+    margin: 50px auto 100px;
+}
+
+.questions {
+    width: 800px;
+    max-width: 100vw;
+    margin: auto;
+    text-align: left;
+}
+
+li {
+    list-style-type: circle;
+}
+
+a {
+    color: var(--red);
+}
+
+pre {
+    margin-left: 25px;
+}

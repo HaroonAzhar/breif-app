@@ -1,0 +1,108 @@
+
+.planName {
+
+}
+
+.planPrice {
+
+    margin-top: 18px;
+}
+
+.planHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+.planDescription {
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+    display: flex;
+    flex-direction: column;
+    font-family: HelveticaNeue55;
+}
+
+.planFeature {
+    margin: 8px 0px;
+    line-height: 20px;
+}
+
+.pricingWrapper {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    color: black;
+}
+
+.planWrapper {
+    width: 250px;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    transition: transform 0.2s;
+    margin: 10px;
+    cursor: pointer;
+    height: 460px;
+    -webkit-margin-after: 50px;
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    position: relative;
+}
+
+.planWrapper:hover {
+    transform: scale(1.01);
+}
+
+.selected {
+    border: 1px solid black;
+}
+
+.recommended {
+    border: 1px solid var(--red);
+}
+
+.planRecommended {
+    margin-top: 10px;
+    margin-bottom: 2px;
+
+}
+
+.planNotRecommendended {
+    margin-top: 5px;
+
+    opacity: 0;
+}
+
+@media (max-width: 880px) {
+    .pricingWrapper {
+        flex-direction: column;
+        margin-bottom: 150px;
+    }
+
+    .planWrapper {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+.blurred > * {
+    filter: blur(2px);
+}
+
+.requiresPremium {
+    position: absolute;
+    filter: blur(0);
+
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    background-color: var(--red);
+    color: white;
+
+    text-align: center;
+
+    z-index: 2;
+
+    padding: 10px;
+}

@@ -1,0 +1,29 @@
+.wrapper {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+    background-color: white;
+
+    font-weight: 100;
+    margin: 100px 0 0;
+}
+
+.header {
+    color: #e63946;
+    font-size: 4em;
+    margin-bottom: 100px;
+    line-height: normal;
+    text-align: center;
+}
+
+.blogPreviews {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.loading {
+    margin-top: 65px;
+}

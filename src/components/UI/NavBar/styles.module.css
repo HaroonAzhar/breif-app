@@ -1,0 +1,55 @@
+.logo {
+    width: 100px;
+    height: 32.7px;
+    cursor: pointer;
+}
+
+.rightBox {
+    margin-left: auto;
+}
+
+.navItem {
+    margin-left: 26px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 7px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.selectedNavItem {
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.dropdownIcon {
+    cursor: pointer;
+}
+
+.links {
+    line-height: 40px;
+    margin-right: 25px;
+}
+
+.profileIcon {
+    cursor: pointer;
+    background-color: white !important;
+    color: black !important;
+}
+
+.profileIcon:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 499px) {
+    .navItem {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .dropdownIcon {
+        display: none;
+    }
+}

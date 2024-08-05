@@ -1,0 +1,24 @@
+.wrapper {
+    width: 100%;
+
+    margin-top: 15px;
+}
+
+.date {
+    display: flex;
+    margin-left: auto;
+
+    color: grey;
+}
+
+.package {
+    margin-right: 15px;
+}
+
+.list p {
+    text-align: left;
+}
+
+.packageCost {
+    text-align: left;
+}

@@ -1,0 +1,111 @@
+.tile-view {
+    padding-top: 50px;
+    max-width: 90%;
+    margin: 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 60px;
+
+    &-web {
+        width: 50% !important;
+    }
+
+    &-mobile {
+        width: auto !important;
+    }
+
+    .title {
+        text-align: center;
+        font-weight: normal;
+        color: #333333;
+    }
+
+    .subtitle {
+        width: 46%;
+        max-width: 90%;
+        margin: auto;
+        line-height: 30px;
+        color: #757575;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 16px;
+
+        &-web {
+            width: 46%;
+        }
+
+        &-mobile {
+            width: 90%;
+        }
+    }
+
+    .tile-item-wrapper {
+        display: contents;
+
+        .tile-item {
+            transition: transform 0.5s, filter 1.5s ease-in-out;
+            transform-origin: center center;
+            padding-bottom: 24px;
+            filter: drop-shadow(3px 3px 16px #e0e0ec);
+            height: auto;
+            background: white;
+
+            &:hover {
+                transform: scale(1.05);
+                filter: drop-shadow(0px 31px 35px #d8d8e0);
+
+                .tile-content {
+                    display: block;
+                }
+
+                .image {
+                    transform: scale(0.9);
+                }
+
+                .tile-number {
+                    transform: translateY(-15%) translateX(-15%) scale(0);
+                }
+            }
+
+            .tile-number {
+                padding: 30px;
+                color: #ffcbcb;
+                position: absolute;
+                transition: transform 0.5s, filter 1.5s ease-in-out;
+                font-size: 72px;
+            }
+
+            .tile-content {
+                display: none;
+                transition: transform 0.5s, filter 1.5s ease-in-out;
+                color: #757575;
+                font-size: 18px;
+            }
+
+            .image {
+                transition: transform 0.5s, filter 1.5s ease-in-out;
+                padding: 10px;
+                width: auto;
+                height: 200px;
+            }
+
+            .title {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 36px;
+                line-height: 42px;
+                text-align: center;
+                color: #333333;
+                transition: transform 0.5s, filter 1.5s ease-in-out;
+                padding: 0 10px;
+            }
+
+            .action-button {
+                display: flex !important;
+                margin: auto !important;
+                margin-top: 15px !important;
+            }
+        }
+    }
+}

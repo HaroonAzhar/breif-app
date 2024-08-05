@@ -1,0 +1,79 @@
+
+.wrapper {
+    padding-top: 100px;
+    padding-left: 50px;
+    margin-left: 100px;
+
+    position: relative;
+
+    animation: moveDown 0.5s linear forwards 1;
+}
+
+.previousStep {
+    margin-left: 0;
+
+    height: 150px;
+    width: 600px;
+
+    overflow: hidden;
+    filter: blur(5px);
+
+    cursor: pointer;
+
+    animation: fadeIn 1s linear forwards 1;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes moveDown {
+    0% {
+        left: 30%;
+        opacity: 0;
+    }
+
+    100% {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+
+@media only screen and (max-width: 960px) {
+    .wrapper {
+        padding-left: 0;
+        margin: auto;
+        width: 90%
+    }
+}
+
+.packages {
+    display: flex;
+}
+
+.optionGroup {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.optionWrapper {
+    margin-top: 10px;
+}
+
+
+.stepTitle svg {
+    vertical-align: 0;
+    margin-left: 10px;
+}
+
+.stepTitle {
+
+}

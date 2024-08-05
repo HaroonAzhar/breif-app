@@ -1,0 +1,72 @@
+.horizontal-carousel {
+    background: white;
+    margin-top: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    .title {
+        text-align: center;
+        font-weight: normal;
+        color: #333333;
+    }
+
+    .subtitle {
+        width: 46%;
+        max-width: 90%;
+        margin: auto;
+        line-height: 30px;
+        color: #757575;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .all-cards {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .carousel-item-web {
+        width: 66%;
+        margin-left: 17%
+    }
+    
+    .carousel-item-mobile {
+        width: auto;
+        margin-left: 0 
+    }
+    
+    .horizontalCard {
+        height: auto;
+        align-items: center;
+        padding: 26px;
+        background: #EFEFEF;
+        border: 1px solid #E4E4E4;
+        border-radius: 16px;
+    
+        &:hover {
+            box-shadow: 0px 10px 16px 1px rgba(142, 159, 180, 0.38);
+            cursor: pointer;
+        }
+    }
+    
+    .image {
+        width: 100%;
+        border-radius: 12px
+    }
+    
+    .paragraph {
+        text-align: left;
+        font-size: 18px;
+        color: #333333;
+
+        &-web {
+            padding-left: 24px;
+            padding-top: 0
+        }
+        
+        &-mobile {
+            padding-left: 0;
+            padding-top: 10px
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.button-section-root {
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+    &-grey {
+        background: #F6F6F6;
+    }
+
+    &-white {
+        background: #ffffff;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        transform: scale(1.25);
+    }
+}

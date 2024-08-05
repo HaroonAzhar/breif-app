@@ -1,0 +1,70 @@
+.backButton {
+    position: absolute;
+    left: 0;
+    top: 100px;
+}
+
+.wrapper {
+    min-height: 100vh;
+}
+
+.previousStepWrapper {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+
+    transition: transform 2s;
+}
+
+.backArrow {
+    position: absolute;
+    top: 50%;
+
+    cursor: pointer;
+
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.mobileBackArrow {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: fit-content;
+
+    margin-top: 100px;
+}
+
+.progressBar {
+    position: relative;
+    width: 60%;
+    margin-top: 64px;
+    margin-left: 100px;
+
+    z-index: 5;
+
+}
+
+@media only screen and (max-width: 960px) {
+    .progressBar {
+        margin: auto;
+        width: 90%
+    }
+}
+
+
+.basketWrapper {
+    margin-top: 100px;
+    width: 60%;
+}
+
+.modalWrapper {
+    width: 400px;
+    max-width: 90%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}

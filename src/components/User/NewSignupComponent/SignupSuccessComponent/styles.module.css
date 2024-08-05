@@ -1,0 +1,17 @@
+.wrapper {
+    min-height: 70vh;
+    margin-top: 100px;
+}
+
+p {
+    text-align: center;
+}
+
+.hCenter {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+
+    margin-top: 100px;
+}

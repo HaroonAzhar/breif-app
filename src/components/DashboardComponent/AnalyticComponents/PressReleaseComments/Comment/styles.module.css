@@ -1,0 +1,14 @@
+.commentWrapper {
+
+}
+
+.topRow {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 15px;
+}
+
+.topRow > * {
+    margin: 5px;
+}

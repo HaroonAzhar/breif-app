@@ -1,0 +1,140 @@
+.metricsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    position: relative;
+}
+
+.metricWrapper {
+    width: 100px;
+    height: 100px;
+
+    margin: 50px auto auto;
+
+    border-radius: 50%;
+
+    border: 1px solid var(--red);
+    color: black;
+}
+
+.metricTitle {
+}
+
+.metricContent {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.metricContent p {
+    font-weight: 400;
+}
+
+.metricValue {
+    font-weight: bold;
+}
+
+.blurred {
+    filter: blur(2px);
+}
+
+.lifetimePerformanceWrapper {
+    position: relative;
+}
+
+.subscribeOverlay {
+    position: absolute;
+
+    background-color: rgba(0, 0, 0, 0.6);
+
+    color: white;
+
+    padding: 20px;
+
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+
+    z-index: 2;
+}
+
+.subForMore {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.publications {
+    filter: blur(6px);
+}
+
+.mediaImg {
+    height: 200px;
+    width: auto;
+    max-width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* NEW CSS */
+
+.openSidebarButton {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.layoutWrapper {
+    display: flex;
+
+    margin-top: 56px;
+
+    position: relative;
+}
+
+.layoutSidebar {
+    flex-basis: 320px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    color: white;
+
+    z-index: 3;
+}
+
+.layoutSidebarHidden {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    .layoutSidebar {
+        position: absolute;
+    }
+}
+
+.layoutSidebarInner {
+    position: fixed;
+    background-color: #292929;
+
+    width: 320px;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.layoutSidebarInnerContent {
+    height: 1200px;
+}
+
+.layoutSidebar svg {
+    color: #e63946;
+    margin-top: 0;
+}
+
+.layoutContent {
+    height: 100%;
+    flex-grow: 1;
+
+    padding: 10px;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+}

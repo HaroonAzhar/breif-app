@@ -1,0 +1,274 @@
+.planName {
+    color: var(--red);
+}
+
+.planPrice {
+    margin-top: 18px;
+
+    position: absolute;
+    top: 210px;
+
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.planPriceMonthly {
+    font-size: 28px;
+    margin-top: 18px;
+
+}
+
+.planHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+.planDescription {
+    font-size: 14px;
+    display: flex;
+    font-style: italic;
+}
+
+.planFeatures {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+
+
+
+    text-align: center;
+    width: 200px;
+}
+
+.planFeature {
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+
+    height: 20px;
+
+    color: red;
+
+    width: 225px;
+
+    position: relative;
+    margin: 0px auto;
+    padding: 8px 0;
+    justify-content: center;
+    border-bottom: 1px solid #cecece;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.mobilePackages {
+    display: flex;
+    border-bottom: 1px solid #cecece;
+}
+.mobile {
+    display: none;
+}
+.desktop {
+    display: block;
+    
+}
+.packageLabel {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+.packageLabel .moreInfo {
+    position: inherit;
+}
+@media (max-width: 768px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .planFeatures {
+        width: 100%;
+    }
+    .planHeader {
+        align-items: center;
+    }
+    .price {
+        width: 44%;
+    }
+    .planFeature {
+         border: none;
+    }
+}
+
+.moreInfo {
+    position: absolute;
+    right: 15px;
+    top: -2px;
+}
+
+.planFeature b {
+    position: absolute;
+    width: 150px;
+    left: 45px;
+    text-align: left;
+}
+
+
+.planFeature i:before {
+    content: "close";
+}
+
+.included {
+    color: green;
+}
+
+.included i:before {
+    content: "check";
+}
+
+.pricingWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+
+    height: fit-content;
+
+    align-items: center;
+}
+
+.planGroup {
+    border: 1px solid grey;
+    margin: 0 10px;
+    padding: 0 25px;
+
+
+    position: relative;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 90vw;
+
+    justify-content: center;
+}
+
+
+.planGroup p {
+    position: absolute;
+    top: -10px;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.freeServiceInPro {
+    color: green;
+    font-weight: 900;
+}
+.planWrapper {
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    transition: transform 0.2s;
+    cursor: pointer;
+
+    width: 220px;
+    display: inline-block;
+    max-width: 80vw;
+
+    position: relative;
+
+    margin: 0px 10px 10px;
+}
+
+.bottomButton {
+    display: flex;
+    justify-content: center;
+}
+
+.planWrapper img {
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.planWrapper:hover {
+    transform: scale(1.01);
+}
+
+.selected {
+    border: 1px solid transparent;
+}
+
+.recommended {
+    border: 1px solid var(--red);
+}
+
+.planRecommended {
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+
+.planNotRecommendended {
+    margin-top: 5px;
+    font-size: 11px;
+    opacity: 0;
+}
+
+@media (max-width: 880px) {
+    .pricingWrapper {
+        flex-direction: column-reverse;
+        margin-bottom: 150px;
+    }
+
+    .planGroup {
+        height: fit-content;
+        width: 80vw;
+    }
+
+    .planWrapper {
+        border-bottom: 1px solid grey;
+        padding-bottom: 50px;
+        width: 80%;
+    }
+
+    .bottomButton {
+        margin-bottom: 50px;
+        bottom: -5px;
+    }
+
+}
+
+.infoText {
+    background-color: #ec5858;
+    position: absolute;
+    color: white;
+    padding: 10px;
+}
+.smallFont {
+    font-size: 12px;
+}
+.price {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 70px;
+}
+.planName {
+    color: rgb(255, 87, 87);
+    font-weight: bold;
+    text-align: center;
+    padding: 0 8px;
+}
+.planGroup:last-child .planName{
+    padding: 0 30px;
+}
+.priceBold {
+    color: black;
+    font-weight: 900;
+}

@@ -1,0 +1,16 @@
+.commentsWrapper {
+    width: 100%;
+}
+
+.commentBox {
+    display: flex;
+    align-items: center;
+}
+
+.commentBox > * {
+    margin: 10px;
+}
+
+.commentBox > *:nth-child(1) {
+    width: 60%;
+}

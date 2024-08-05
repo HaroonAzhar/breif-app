@@ -1,0 +1,29 @@
+.wrapper {
+    width: 75%;
+    height: fit-content;
+    padding-bottom: 25px;
+    margin: 10px;
+
+    border-bottom: 1px solid grey;
+}
+
+.title {
+    text-align: left;
+    font-size: 15pt;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.title:hover {
+    text-decoration: underline;
+}
+
+.date {
+    text-align: left;
+    margin-top: 5px;
+}
+
+.tinyImg {
+    width: 250px;
+    max-width: 100%;
+}

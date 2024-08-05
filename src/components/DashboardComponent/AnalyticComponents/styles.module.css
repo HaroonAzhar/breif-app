@@ -1,0 +1,43 @@
+.wrapper {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    min-height: 70vh;
+}
+
+.loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.content {
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 800px) {
+    .content {
+        width: 100%;
+    }
+}
+
+.blur {
+    filter: blur(6px);
+}
+
+.releaseWrapper object {
+    width: 100%;
+    height: 1000px;
+}
+
+.approveButtonsWrapper {
+    display: flex;
+    align-items: start;
+}
+
+.approveButtonsWrapper > * {
+    margin: 5px;
+}

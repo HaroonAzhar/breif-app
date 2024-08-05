@@ -1,0 +1,49 @@
+.video-wrapper {
+    margin-top: 60px;
+    padding-top: 50px;
+    width: 1400px;
+    max-width: 90%;
+    margin: 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    &-web {
+        width: 66%
+    }
+
+    &-mobile {
+        width: auto
+    }
+
+    .title {
+        text-align: center;
+        font-weight: normal;
+        color: #333333;
+    }
+
+    .subtitle {
+        width: 46%;
+        max-width: 90%;
+        margin: auto;
+        line-height: 30px;
+        color: #757575;
+        text-align: center;
+        margin-top: 20px;
+
+        &-web {
+            width: 46%
+        }
+    
+        &-mobile {
+            width: 90%
+        }
+    }
+
+    .video {
+        width: 800px;
+        max-width: 100%;
+        margin: auto;
+        margin-top: 36px;
+    }
+}

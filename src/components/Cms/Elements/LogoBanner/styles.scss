@@ -1,0 +1,64 @@
+.logo-banner {
+    margin-top: 50px;
+
+    .title {
+        text-align: center;
+        font-weight: 200;
+        color: #333333;
+
+        &-web {
+            padding: 0;
+        }
+
+        &-mobile {
+            padding: 5px;
+        }
+    }
+
+    .logo-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        &-web {
+            padding: 0;
+        }
+
+        &-mobile {
+            padding: 5px;
+        }
+
+        .logo-image {
+            height: 150px;
+            width: 150px;
+            margin: 0 30px;
+            transition: transform 0.5s, filter 1.5s ease-in-out;
+            transform-origin: center center;
+
+            &-web {
+                height: 150px;
+                width: 150px;
+
+                &:hover {
+                    transform: scale(1.25);
+                    filter: contrast(100%);
+                }
+            }
+    
+            &-mobile {
+                height: 150px;
+                width: 150px;
+            }
+
+            .image {
+                max-width: 100%;
+                max-height: 100%;
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                filter: contrast(50%);
+            }
+        }
+    }
+}

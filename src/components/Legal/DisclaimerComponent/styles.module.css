@@ -1,0 +1,15 @@
+.wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+.wrapper iframe {
+    width: 800px;
+
+    margin: auto;
+    height: 800px;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}

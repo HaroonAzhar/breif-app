@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://www.brief.app/</loc> </url>
+<url> <loc>https://www.brief.app/</loc> </url>
+<url> <loc>https://www.brief.app/form/success/:orderId</loc> </url>
+<url> <loc>https://www.brief.app/form/cancel</loc> </url>
+<url> <loc>https://www.brief.app/form</loc> </url>
+<url> <loc>https://www.brief.app/pricing</loc> </url>
+<url> <loc>https://www.brief.app/about</loc> </url>
+<url> <loc>https://www.brief.app/legal/privacy</loc> </url>
+<url> <loc>https://www.brief.app/legal/tos</loc> </url>
+<url> <loc>https://www.brief.app/legal/disclaimer</loc> </url>
+<url> <loc>https://www.brief.app/contact-us</loc> </url>
+<url> <loc>https://www.brief.app/journalists</loc> </url>
+<url> <loc>https://www.brief.app/news/post/:postId/:postSlug?</loc> </url>
+<url> <loc>https://www.brief.app/news</loc> </url>
+<url> <loc>https://www.brief.app/faq</loc> </url>
+<url> <loc>https://www.brief.app/login</loc> </url>
+<url> <loc>https://www.brief.app/logout</loc> </url>
+<url> <loc>https://www.brief.app/signup</loc> </url>
+<url> <loc>https://www.brief.app/account</loc> </url>
+<url> <loc>https://www.brief.app/forgot-password</loc> </url>
+<url> <loc>https://www.brief.app/reset-password/reset</loc> </url>
+<url> <loc>https://www.brief.app/dashboard</loc> </url>
+<url> <loc>https://www.brief.app/dashboard/analytics/:orderId</loc> </url>
+<url> <loc>https://www.brief.app/dashboard/ideas-clinic</loc> </url>
+</urlset>

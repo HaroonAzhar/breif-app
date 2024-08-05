@@ -1,0 +1,64 @@
+.verticalCard {
+    background: #F6F6F6;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+    .title {
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 20px;
+        font-weight: normal;
+        color: #333333;
+    }
+
+    .subtitle {
+        width: 46%;
+        max-width: 90%;
+        margin: auto;
+        line-height: 30px;
+        color: #757575;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .all-cards {
+        width: 66%;
+        margin-left: 17%;
+    }
+
+    .image {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 12px
+    }
+
+    .paragraph {
+        text-align: center;
+        font-size: 20px;
+        color: #757575
+    }
+
+    .card {
+        transition: transform 0.5s, filter 1.5s ease-in-out;
+        background: white;
+        border-radius: 16px;
+        padding: 50px 15px;
+        box-shadow: 0px 10px 38px 1px rgba(142, 159, 180, 0.38);
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    .card-web {
+        height: 450px;
+        margin-bottom: 0;
+        width: 25%
+    }
+
+    .card-mobile {
+        height: auto;
+        margin-bottom: 30px;
+        width: auto
+    }
+}

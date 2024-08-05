@@ -1,0 +1,63 @@
+.wrapper {
+    width: 300px;
+    height: 600px;
+    text-align: left;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    padding: 25px;
+
+    position: relative;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #1d3557;
+    margin-top: 25px;
+}
+
+.titleWrapper {
+    height: 100px;
+}
+
+.infoWrapper {
+    display: flex;
+    padding: 10px;
+    line-height: 15px;
+
+    font-size: 0.8em;
+}
+
+.authorName {
+    margin: 10px;
+}
+
+.date {
+    margin: 10px;
+}
+
+.excerpt {
+    margin-bottom: 25px;
+}
+
+.button {
+    position: absolute;
+    bottom: 25px;
+}
+
+.previewImg {
+    height: 200px;
+    max-width: 100%;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    cursor: pointer;
+}
+
+svg {
+    margin-top: 5px;
+}

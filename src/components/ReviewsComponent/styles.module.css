@@ -1,0 +1,24 @@
+.wrapper {
+    margin-top: 100px;
+}
+
+.testimonialsWrapper {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.testimonialWrapper {
+    width: 800px;
+    max-width: 80vw;
+    margin: 50px auto;
+}
+
+.testimonialText {
+
+}
+
+.testimonialAuthor {
+    margin-left: 25px;
+    margin-top: 10px;
+    font-weight: normal;
+}

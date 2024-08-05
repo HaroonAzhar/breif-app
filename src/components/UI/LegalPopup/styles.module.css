@@ -1,0 +1,95 @@
+.popupWrapper {
+    justify-content: space-evenly;
+    width: calc(100vw - 150px);
+    height: 100px;
+    z-index: 100;
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 25px 75px;
+    display: flex;
+    align-items: center;
+}
+
+.popupText {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.link {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #00a0c6;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.acceptButtonWrapper {
+    height: 55px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.acceptButtonWrapper:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 1000px) {
+    .acceptButtonWrapper {
+        width: 90%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .popupWrapper {
+        height: fit-content;
+        padding: 0;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .popupText {
+        width: 90%;
+        font-size: 16px;
+        line-height: 24px;
+
+        margin-top: 25px;
+    }
+}
+
+/*@media (max-width: 560px) {*/
+/*    .popupWrapper {*/
+/*        padding: 40px 40px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 460px) {*/
+/*    .popupWrapper {*/
+/*        padding: 60px 40px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 400px) {*/
+/*    .popupWrapper {*/
+/*        padding: 90px 40px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 400px) {*/
+/*    .popupWrapper {*/
+/*        padding: 120px 40px;*/
+/*    }*/
+/*}*/

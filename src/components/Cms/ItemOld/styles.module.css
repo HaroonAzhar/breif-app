@@ -1,0 +1,116 @@
+.button {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+    margin-top: 15px !important;
+}
+
+.itemWrapperHorizontal {
+    width: 100%;
+}
+
+.itemWrapper {
+    width: 100%;
+}
+
+.itemWrapper > h2 {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgWrapper img {
+    height: 400px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 800px) {
+    .itemWrapper {
+        width: 100%;
+    }
+
+    .itemImg {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.itemWrapper > * {
+    margin-top: 20px;
+}
+
+.contentWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentWrapper > * {
+    margin: 20px;
+}
+
+.contentWrapper > .right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 300px;
+}
+
+.contentWrapper > .right > * {
+    margin: 20px;
+}
+
+.contentWrapperAlternate {
+    flex-wrap: wrap-reverse;
+}
+
+.contentWrapperAlternate > .left {
+    order: 2;
+}
+
+.contentWrapperAlternate > .right {
+    order: 1;
+}
+
+pre {
+    white-space: pre-wrap; /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+
+    font-family: "Roboto", sans-serif;
+
+    margin: auto;
+
+    padding: 15px;
+
+    font-size: 1em;
+    max-width: 90%;
+    line-height: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+    .itemBody {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 25px;
+    }
+
+    .imgWrapper img {
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+.itemImg {
+    height: 100px;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}

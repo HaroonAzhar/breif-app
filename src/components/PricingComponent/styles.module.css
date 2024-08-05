@@ -1,0 +1,171 @@
+.wrapper {
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+    background-color: white;
+
+}
+
+.background {
+    position: relative;
+    width: 100vw;
+    height: fit-content;
+    max-height: 100vh;
+    max-width: 100vw;
+    color: #f1faee;
+    overflow: hidden;
+}
+
+.bannerWrapper {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100vw;
+    line-height: 24px;
+    overflow-y: auto;
+    align-items: center;
+}
+
+.banner {
+    width: fit-content;
+    margin: auto;
+}
+
+.message {
+    display: flex;
+    color: #1d3557;
+    line-height: 50px;
+    text-transform: uppercase;
+    height: 100px;
+}
+
+.messageText {
+    height: 90px;
+    text-align: right;
+}
+
+.button {
+    color: #f1faee;
+    height: 40px;
+    cursor: pointer;
+    width: 195px;
+    margin-top: 50px;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
+.graphic {
+    display: flex;
+}
+
+.backgroundWrapper {
+    width: 100vw;
+    background-color: #f1faee;
+    animation: background 0.5s ease-in-out 1.5s forwards;
+}
+
+
+.body {
+    margin-top: 20px;
+}
+
+.title {
+    color: #1d3557;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topTitle {
+    margin-top: 100px;
+    margin-bottom: 35px;
+    color: var(--red);
+}
+
+.subTitle {
+    margin-bottom: 50px;
+}
+
+.freeItems {
+    position: absolute;
+
+    top: 518px;
+
+    display: flex;
+    flex-direction: column;
+
+
+    width: 200px;
+
+    margin: 8px auto 8px -13px;
+}
+.packages {
+    display: flex;
+    width: calc(100% - 40px);
+    padding: 0 20px;
+    align-items: flex-start;
+}
+@media (max-width: 768px) {
+    .packages {
+        display: flex;
+        width: 94%;
+        margin-left: 2%;
+        padding: 0;
+        align-items: flex-start;
+    }
+}
+.planWrapper {
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    transition: transform 0.2s;
+    cursor: pointer;
+    width: 220px;
+    display: inline-block;
+    max-width: 80vw;
+    margin: 156px 10px 10px;
+}
+
+.planGroup {
+    margin: 10px;
+    padding: 25px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90vw;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .planGroup {
+        display: none;
+    }
+}
+.planFeature {
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    margin: 0;
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    align-items: center;
+    height: 20px;
+    border-bottom: 1px solid transparent;
+}
+.billingCycleSwitch {
+    padding: 0 0 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.billingCycleSwitch__button {
+    margin: 0 10px;
+}
+.comingSoon {
+    font-size: 10px;
+    color: var(--red);
+}

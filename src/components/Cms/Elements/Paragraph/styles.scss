@@ -1,0 +1,101 @@
+.paragraph-root {
+    background: white;
+    padding-top: 0;
+    padding-bottom: 40px;
+    height: auto;
+
+    .paragraph {
+        height: auto;
+        background: white;
+        border-radius: 0;
+        box-shadow: 0px 10px 38px 1px rgba(142, 159, 180, 0.38);
+        padding: 0;
+        position: relative;
+        margin-top: 0;
+
+        &-web {
+            margin-left: 25%;
+            width: 50%;
+            transition: transform 0.5s, filter 1.5s ease-in-out;
+            transform: scale(1.05);
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        &-mobile {
+            margin-left: 0;
+            width: 100%;
+        }
+
+        .title {
+            text-align: center;
+            font-weight: normal;
+            color: #333333;
+    
+            &-web {
+                margin-left: 20%;
+                width: 60%;
+                padding: 60px 0 20px;
+            }
+    
+            &-mobile {
+                margin-left: 0;
+                width: auto;
+                padding: 60px 20px 20px;
+            }
+        }
+    
+        .subtitle {
+            width: 46%;
+            max-width: 90%;
+            margin: auto;
+            line-height: 30px;
+            color: #757575;
+            text-align: center;
+            margin-top: 20px;
+    
+            &-web {
+                width: 46%;
+            }
+    
+            &-mobile {
+                width: 90%;
+            }
+        }
+
+        .paragraph-set {
+            padding-bottom: 40px;
+    
+            .paragraph-wrapper {
+                height: auto;
+                padding-bottom: 30px;
+    
+                &-web {
+                    margin-left: 25%;
+                    width: 50%;
+                }
+    
+                &-mobile {
+                    margin-left: 5%;
+                    width: 90%;
+                }
+    
+                .paragraph-title {
+                    margin: auto;
+                    line-height: 30px;
+                    color: #2c2c2c;
+                    text-align: center;
+                    margin-top: 20px;
+                }
+    
+                .paragraph-content {
+                    text-align: center;
+                    font-size: 18px;
+                    color: #757575;
+                }
+            }
+        }
+    }
+}
